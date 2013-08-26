@@ -1,0 +1,113 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mi.sta7"
+    android:versionCode="12"
+    android:versionName="1.0.11" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" 
+        android:screenOrientation="user"
+        android:configChanges="orientation|keyboardHidden" >
+        <activity
+            android:name="com.mi.sta7.ui.LogoActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mi.sta7.ui.ShowSingerActivity"
+            android:screenOrientation="portrait"
+		    android:exported="true" >
+        </activity>
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog"
+		    android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.mi.sta7.ui.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mi.sta7.ui.TencentLogin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mi.sta7.ui.LiftActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mi.sta7.ui.MoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mi.sta7.ui.CenterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mi.sta7.ui.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mi.sta7.ui.ShareActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mi.sta7.ui.CenterActivity2"
+            android:screenOrientation="portrait" >
+            
+        </activity>
+        <activity
+            android:name="com.mi.sta7.ui.ShowOneNewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mi.sta7.ui.HistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mi.sta7.ui.HomeImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mi.sta7.ui.ShowImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mi.sta7.ui.MyPlayActivity"
+            android:screenOrientation="landscape" android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name="com.mi.sta7.ui.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mi.sta7.ui.ShowOneImageActivity2"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.mi.sta7.ui.SinaStatusActivity"
+            android:screenOrientation="portrait" />
+         <activity
+            android:name="com.mi.sta7.ui.CommentsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mi.sta7.ui.PlayMovieActivity"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.mi.sta7.ui.HistoryDetailActivity"
+            android:screenOrientation="portrait" />
+         <activity
+            android:name="com.mi.sta7.ui.ShowOneImageActivity"
+           />
+          <activity
+            android:name="com.mi.sta7.ui.SeeOneImageActivity"
+           />
+        <service android:name="com.mi.sta7.server.TimeService" />
+    </application>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+</manifest>

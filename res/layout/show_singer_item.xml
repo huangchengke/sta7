@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+    android:layout_height="50dp" 
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    >
+<FrameLayout 
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/lin"
+        android:layout_width="fill_parent"
+       android:layout_height="fill_parent"  >
+    </LinearLayout>
+
+    <LinearLayout
+          android:background="@drawable/game_jingdu_bk"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:background="@drawable/latest_select_list_pic_bk_1"
+            android:scaleType="fitXY"
+            android:src="@drawable/home_small_img"
+            android:layout_gravity="center"
+            android:id="@+id/singer_img"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="1dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:textStyle="bold"
+                android:paddingLeft="4dp"
+                android:gravity="center_vertical"
+                android:id="@+id/singer_name"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/piao_numer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="10dp"
+            android:gravity="right|center_vertical" />
+    </LinearLayout>
+
+</FrameLayout>
+</LinearLayout>

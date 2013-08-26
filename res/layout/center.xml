@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000000"
+    >
+
+  <FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/topbar"
+    android:orientation="vertical" >
+    <Button
+            android:id="@+id/history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_bt_seletor"
+            android:text="回顾"
+            android:layout_gravity="left|center_vertical"
+            android:layout_margin="5dp"
+            android:textColor="@color/whilt"
+            android:textSize="12sp"
+            android:paddingLeft="5dp" />
+      <Button 
+          android:textColor="@color/whilt"
+          android:textStyle="bold"
+          android:visibility="gone"
+          android:id="@id/back"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="5dp"
+          android:layout_gravity="left|center_vertical"
+          android:gravity="center"
+          android:textSize="12sp"
+          />
+      
+        <Button
+            android:textSize="12sp"
+            android:text="@string/left_bt_text"
+             android:textColor="@color/whilt"
+           android:background="@drawable/left_bt_selector"
+            android:id="@id/left_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_margin="5dp"/>
+    </FrameLayout>
+
+    
+    <ImageView
+        android:padding="5dp"
+          android:src="@drawable/home_big_img"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:scaleType="fitXY"
+        android:id="@+id/center_tb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       />
+
+    <FrameLayout
+          android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+          
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+         />
+         <TextView 
+           android:background="@drawable/social_select"
+            
+             android:textSize="20sp"
+             android:textColor="@color/red"
+             android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+             android:text="离开播还有："
+             />
+        <com.mi.sta7.utils.CustomDigitalClock
+            
+            android:background="@color/black"
+            android:id="@id/time_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/red"
+            android:textSize="45sp" />
+    </FrameLayout>
+
+</LinearLayout>

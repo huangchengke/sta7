@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:background="@drawable/d_shape"
+        
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_marginLeft="3dp"
+        android:layout_gravity="left"
+        android:textSize="18sp"
+     android:textColor="@color/whilt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/d_title"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/qian_whilt"
+        />
+<TextView 
+    android:layout_margin="10dp"
+         android:textSize="16sp"
+     android:textColor="@color/whilt"
+  android:id="@+id/d_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+<Button 
+  android:layout_gravity="bottom|center_horizontal"
+         android:textColor="@color/whilt"
+    android:text="确 定"
+     android:layout_height="40dp" 
+       android:layout_width="68dp"
+    android:id="@+id/d_button"
+   android:background="@drawable/alert_left_selector"
+    />
+</LinearLayout>

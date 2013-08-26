@@ -1,0 +1,85 @@
+<resources>
+
+    <string name="app_name">中国最强音</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="share_tent">QQ认证</string>
+    <string name="share_sin">新浪认证</string>
+    <string name="share_jy">金鹰认证</string>
+    <string name="share_baidu">百度认证</string>
+    <string name="title_all">全部</string>
+    <string name="title_movie">视频</string>
+    <string name="title_music">音乐</string>
+    <string name="title_new">新闻</string>
+    <string name="title_photo">图片</string>
+    <string name="back">返回</string>
+    <string name="home">最强消息</string>
+    <string name="life">最强互动</string>
+    <string name="more">最强社交</string>
+     <string name="share_bt">分享</string>
+    <string name="loding">加载中&#8230;</string>
+    <string name="left_bt_text">人气榜</string>
+    <string name="no_comments">没有评论了</string>
+      <string name="call_other">邀请微信好友</string>
+    <string name="more_gezhe">歌者</string>
+    
+    <string name="more_daoshi">导师</string>
+      <string name="toupian_text">投票</string>
+        <string name="yaoqing_tex">邀请</string>
+          <string name="xinlang_text">新浪微博</string>
+            <string name="weixin_tex">微信好友</string>
+             <string name="no_text">没 有 数 据 了</string>
+             <string name="updating">数据上传中</string>
+             <string name="no_date">没有数据了</string>
+              <string name="exit_text">退出</string>
+             <string name="resh_text">刷新</string>
+              <string name="bad_text">网速不给力</string>
+              <string name="quxiao_text">取消</string>
+             
+                <string name="center_title">欢迎大家参与节目互动,马上表达您的观点。绑定了芒果圈的用户, 将会有机会获取幸运大奖 。我们将会在湖南卫视，金鹰网和官方新浪微博@中国最强音X公布本期节目观众评价和
+幸运大奖名单
+                    </string>
+                       <string name="net_error">网速不给力</string>
+    <string name="I_TEST">home_music1</string>
+    <string name="I_TEST_BAC">home_music2</string>
+    <string name="I_TYPE_VEDIO">home_movie1</string>
+    <string name="I_TYPE_VEDIOBACK">home_movie2</string>
+    <string name="I_TYPE_MUSIC">home_music1</string>
+    <string name="I_TYPE_MUSICBACK">home_music2</string>
+    <string name="I_TYPE_PIC">home_photo1</string>
+    <string name="I_TYPE_PICBACK">home_photo2</string>
+    <string name="I_SOCIAL">social_select_bar1</string>
+    <string name="I_SOCIAL_BACK">social_select_bar2</string>
+    <string name="S_ALL">全部</string>
+    <string name="S_VEDIO">影视</string>
+    <string name="S_PICTURE">图片</string>
+    <string name="S_MUSCI">音乐</string>
+    <string name="S_NEWS">新闻</string>
+    <string name="S_SINGLE">歌者</string>
+    <string name="S_TUTOR">导师</string>
+    <string name="S_NORMAL">草根</string>
+    <string name="S_EXIT_CONFIRM">确定要退出?</string>
+    <string name="S_CONFIRM">确定</string>
+    <string name="S_VERREFRESH">版本更新</string>
+    <string name="S_DOWNLOAD_NEWVER">下载新版本</string>
+    <string name="S_DOWNLOAD_NEWVER_TEMP">中国最强音赛制火爆升级，更多玩法、更多精彩，确认在线更新？</string>
+    <string name="S_DOWNLOAD_REFRESH">更新</string>
+    <string name="S_HINT">提示</string>
+    <string name="S_ALREADY_NEWVER">已经是最新版本</string>
+    <string name="S_ERR_NETWORK">网络错误</string>
+    <string name="S_LOGIN_DETAIL">每天通过登录新浪微博和微信邀请好友参与活动可以额外获得1票</string>
+    <string name="S_SEND_SUCCESS">发送成功</string>
+    <string name="S_SEND_FAIL">发送失败</string>
+    <string name="S_SEND_CANCEL">用户取消</string>
+    <string name="S_SEND_AUTHDENIED">权限不足</string>
+    <string name="S_SEND_UNKOWN">不可知</string>
+    
+    
+    <string name="S_DOWNLOAD_ERROR">下载失败</string>
+    <string name="S_RETRY">重试</string>
+    <string name="S_CANCEL">取消</string>
+    <string name="S_WELCOME">来,用用我们的产品爱虾逛,你会有不一样的惊喜!</string>
+    <string name="S_RECOMMEND">一款给力的应用</string>
+
+</resources>

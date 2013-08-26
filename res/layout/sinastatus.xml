@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk_pic"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/relativelayout0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbar" >
+        <Button
+            android:id="@id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_bt_seletor"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="@string/back"
+            android:textColor="@color/whilt"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@id/left_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/share_bt_seletor"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/comment_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/status_detail_tabbar"
+        android:layout_below="@id/relativelayout0"
+        android:cacheColorHint="#00000000" />
+    <include 
+        android:id="@+id/progressBar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        layout="@layout/progress_bar"
+        android:layout_gravity="center" />
+    <LinearLayout
+        android:id="@+id/status_detail_tabbar"
+        android:layout_width="fill_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/sina_tabbar_bk"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal" >
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+            <Button
+	            android:id="@+id/refresh"
+	            android:layout_width="20dp"
+	            android:layout_height="23dp"
+	            android:layout_marginTop="5dp"
+	            android:layout_centerHorizontal="true"
+	            android:background="@drawable/sina_tabbar_ref_selector" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="刷新"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+            <Button
+           		android:id="@+id/tosb"
+	            android:layout_width="20dp"
+	            android:layout_height="23dp"
+	            android:layout_marginTop="5dp"
+	            android:layout_centerHorizontal="true"
+	            android:background="@drawable/sina_tabbar_to_selector" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="转发"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+            <Button
+            	android:id="@+id/torite"
+	            android:layout_width="20dp"
+	            android:layout_height="23dp"
+	            android:layout_marginTop="5dp"
+	            android:layout_centerHorizontal="true"
+	            android:background="@drawable/sina_tabbar_rite_selector" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="评论"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+            <Button
+            	android:id="@+id/collect"
+	            android:layout_width="20dp"
+	            android:layout_height="23dp"
+	            android:layout_marginTop="5dp"
+	            android:layout_centerHorizontal="true"
+	            android:background="@drawable/sina_tabbar_collect_selector" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收藏"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

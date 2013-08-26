@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+<Button 
+    android:id="@id/share_tent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/share_tent"
+    />
+<Button 
+    android:id="@id/share_sin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/share_sin"
+    />
+<Button 
+    android:id="@id/share_jingyang"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/share_jy"
+    />
+<Button 
+    android:id="@id/share_baidu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/share_baidu"
+    />
+<TextView 
+    android:textSize="18sp"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/text"
+    android:textColor="@color/yellow"
+    android:gravity="center"
+    />
+</LinearLayout>
+

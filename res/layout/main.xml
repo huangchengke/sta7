@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+   
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <TabWidget
+          android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:id="@android:id/tabs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </TabWidget>
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/RadioG" >
+        </FrameLayout>
+
+        <RadioGroup
+            android:id="@id/RadioG"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@id/home_id"
+                style="@style/main_radio_botton"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bar_selector"
+                android:checked="true"
+                android:drawableTop="@drawable/bar_ico_selector1"
+                android:gravity="center"
+                android:text="@string/home"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@id/lift_id"
+                style="@style/main_radio_botton"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bar_center_bg_seletor"
+                android:drawableTop="@drawable/bar_ico_seletor2"
+                android:gravity="center"
+                android:text="@string/life"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@id/more_id"
+                style="@style/main_radio_botton"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bar_selector"
+                android:drawableTop="@drawable/bar_ico_seletor3"
+                android:gravity="center"
+                android:text="@string/more"
+                android:textSize="12sp" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/ff2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </RelativeLayout>
+
+</TabHost>
+</RelativeLayout>

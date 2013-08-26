@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+   
+    <item name="share_tent" type="id"></item>
+    <item name="share_sin" type="id"></item>
+    <item name="share_jingyang" type="id"></item>
+    <item name="share_baidu" type="id"></item>
+    
+    <item name="RadioG" type="id"></item>
+    <item name="home_id" type="id"></item>
+    <item name="more_id" type="id"></item>
+      <item name="lift_id" type="id"></item>
+    <item name="all_bt_id" type="id"></item>
+    <item name="movie_bt_id" type="id"></item>
+    <item name="music_bt_id" type="id"></item>
+      <item name="new_bt_id" type="id"></item>
+    <item name="other_bt_id" type="id"></item>
+    <item name="home_list_img" type="id"></item>
+    <item name="home_list_tx_title" type="id"></item>
+     <item name="home_list_tx_name" type="id"></item>
+     <item name="back" type="id"></item>
+     <item name="loding_img" type="id"></item>
+      <item name="time_tv" type="id"></item>
+       <item name="left_bt" type="id"></item>
+</resources>

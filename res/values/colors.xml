@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="whilt">#FFFFFF</color>
+    <color name="qian_whilt">#A8A8A8</color>
+    <color name="black">#000000</color>
+    <color name="camera__button_bg">#D3D3D3</color>
+     <color name="webview_bar">#63B8FF</color>
+      <color name="title_bg">#3696d4</color>
+      <color name="bg">#252020</color>
+      <color name="yellow">#FFA500</color>
+        <color name="more_select_bg">#EE9A00</color>
+        <color name="blank_2">#50000000</color>
+        <color name="blank_3">#80D1D1D1</color>
+         <color name="red">#FF0000</color>
+        <color name="green">#76EEC6</color>
+          <color name="list_bg">#00000000</color>
+	<color name="sina_usrname_color">#f61616</color>
+	<color name="sina_time_color">#3bb1f5</color>
+</resources>

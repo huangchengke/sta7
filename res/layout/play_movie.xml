@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     >
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:textSize="12sp"
+            android:paddingLeft="5dp"
+            android:textColor="@color/whilt"
+            android:layout_marginLeft="5dp"
+            android:text="@string/back"
+            android:id="@+id/back"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_bt_seletor" />
+        
+        <Button 
+                  android:textSize="12sp"
+            android:textColor="@color/whilt"
+            android:text="@string/share_bt"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@drawable/toupiao_selector"
+            android:id="@+id/share"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            />
+
+        <SeekBar
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/back"
+            android:id="@+id/seekbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="8dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/share"
+        
+            android:thumb="@drawable/seek_bar_seletor" />
+
+    </RelativeLayout>
+
+    <FrameLayout    
+          android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/bk_pic"
+        >
+        <SurfaceView
+            android:id="@+id/mSurfaceView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </SurfaceView>
+
+        <include
+            android:layout_gravity="center"
+            android:id="@+id/pb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/progress_bar" />
+
+        <Button
+            android:layout_marginBottom="14dp"
+            android:layout_gravity="bottom|center"
+            android:id="@+id/play"
+            android:layout_width="85dp"
+            android:layout_height="35dp"
+            android:background="@drawable/movie_stop_bt"
+            />
+    </FrameLayout>
+
+</LinearLayout>

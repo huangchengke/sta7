@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bk_pic"
+    android:orientation="vertical" >
+
+   <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbar"
+        android:orientation="vertical" >
+
+
+        <Button
+            android:id="@id/left_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_margin="5dp"
+            android:background="@drawable/share_bt_seletor"
+            android:textColor="@color/whilt" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <HorizontalScrollView
+            android:id="@+id/hscroll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@id/RadioG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:layout_gravity="center_horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+        <ImageView
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"
+            android:scaleType="fitXY"
+            android:id="@+id/sina_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/social_sina_login"
+            android:layout_below="@id/hscroll" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sina_login" />
+        
+        <ProgressBar
+		    android:id="@+id/progbar"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@id/content"
+		    android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+</LinearLayout>

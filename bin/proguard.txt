@@ -1,0 +1,88 @@
+# view AndroidManifest.xml #generated:103
+-keep class com.mi.sta7.server.TimeService { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.mi.sta7.ui.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.mi.sta7.ui.CenterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class com.mi.sta7.ui.CenterActivity2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class com.mi.sta7.ui.CommentsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.mi.sta7.ui.HistoryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:94
+-keep class com.mi.sta7.ui.HistoryDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.mi.sta7.ui.HomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.mi.sta7.ui.HomeImageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.mi.sta7.ui.LiftActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.mi.sta7.ui.LogoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.mi.sta7.ui.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.mi.sta7.ui.MoreActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.mi.sta7.ui.MyPlayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:90
+-keep class com.mi.sta7.ui.PlayMovieActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class com.mi.sta7.ui.SeeOneImageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.mi.sta7.ui.ShareActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class com.mi.sta7.ui.ShowImageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.mi.sta7.ui.ShowOneImageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.mi.sta7.ui.ShowOneImageActivity2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.mi.sta7.ui.ShowOneNewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class com.mi.sta7.ui.ShowSingerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:84
+-keep class com.mi.sta7.ui.SinaStatusActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.mi.sta7.ui.TencentLogin { <init>(...); }
+
+# view res/layout/center2.xml #generated:66
+-keep class com.mi.sta7.utils.CenterArrow { <init>(...); }
+
+# view res/layout/center.xml #generated:83
+-keep class com.mi.sta7.utils.CustomDigitalClock { <init>(...); }
+
+# view res/layout/show_one_image3.xml #generated:8
+-keep class com.mi.sta7.utils.DragImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.mi.sta7.wxapi.WXEntryActivity { <init>(...); }
+
+# onClick land/res/layout-land/update_view.xml #generated:51
+# onClick res/layout/update_view.xml #generated:45
+-keepclassmembers class * { *** onClickUpdate(...); }
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    android:orientation="vertical" >
+
+             <com.mi.sta7.utils.DragImageView
+                 android:layout_gravity="center"
+        android:id="@+id/div_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:scaleType="fitXY">
+                 
+           </com.mi.sta7.utils.DragImageView>
+         <FrameLayout
+        android:id="@+id/fl1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbar"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_margin="3dp"
+            android:background="@drawable/back_bt_seletor"
+            android:gravity="center"
+            android:text="@string/back"
+            android:textColor="@color/whilt"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+    
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/lin2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:layout_gravity="bottom"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_marginRight="20dp"
+                android:id="@+id/shang_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/front_icon" />
+
+            <Button
+                android:layout_marginLeft="65dp"
+                android:id="@+id/next_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/next_icon" >
+            </Button>
+        </LinearLayout>
+        <include  layout="@layout/progress_bar" android:id="@+id/pb"/>
+    </FrameLayout>

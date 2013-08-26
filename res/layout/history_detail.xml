@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk_pic"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/relativelayout0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbar" >
+        <Button
+            android:id="@id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_bt_seletor"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="@string/back"
+            android:textColor="@color/whilt"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <include 
+        android:id="@+id/progressBar"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        layout="@layout/progress_bar"
+        android:layout_gravity="center" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+        <TextView
+            android:id="@+id/history_item_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:text=""
+	        android:textColor="@color/whilt"
+	        android:textSize="18sp" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/history_item_title"
+            android:padding="5dp"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/votes_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="本期投票总数" />
+            <TextView
+                android:id="@+id/interract_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="本期互动次数" />
+            <TextView
+                android:id="@+id/like_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YES" />
+            <TextView
+                android:id="@+id/dislike_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO" />
+            <TextView
+                android:id="@+id/lucky_usr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+			<TextView
+			    android:id="@+id/keep_eye"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="" />
+    	</LinearLayout>
+    </RelativeLayout>
+    
+    <ListView
+        android:id="@+id/singer_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000" />
+</LinearLayout>

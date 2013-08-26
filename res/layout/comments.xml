@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<RelativeLayout
+        android:id="@+id/relativelayout0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbar" >
+        <Button
+            android:id="@id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_bt_seletor"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="@string/back"
+            android:textColor="@color/whilt"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@id/left_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_bt_selector"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:text="评论"
+            android:textColor="@color/whilt"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <EditText
+	        android:id="@+id/comment_text"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:gravity="top"
+	        android:hint="请输入评论内容" />
+        <include 
+            android:id="@+id/share_progressbar"
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            layout="@layout/progress_bar" 
+	        android:gravity="top"
+	        android:visibility="gone"/>
+    </RelativeLayout>
+
+</LinearLayout>

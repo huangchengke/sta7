@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbar"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_margin="5dp"
+            android:background="@drawable/back_bt_seletor"
+            android:gravity="center"
+            android:text="返回"
+            android:textColor="@color/whilt"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:textSize="12sp"
+            android:id="@id/left_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_margin="5dp"
+            android:background="@drawable/left_bt_selector"
+            android:text="发送"
+            android:textColor="@color/whilt" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <EditText
+	        android:id="@+id/share_text"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:gravity="top"
+	        android:hint="请输入信息" />
+        <include 
+            android:id="@+id/share_progressbar"
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            layout="@layout/progress_bar" 
+	        android:gravity="top"
+	        android:visibility="gone"/>
+    </RelativeLayout>
+
+</LinearLayout>

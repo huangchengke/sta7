@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"   
+android:orientation="vertical"   
+android:gravity="center"
+android:layout_gravity="bottom"
+android:layout_width="fill_parent"   
+android:layout_height="wrap_content"   
+android:background="@drawable/btn_style_alert_dialog_background"> 
+
+
+
+    <Button
+        android:id="@+id/open"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="6dp"
+    android:background="@drawable/btn_style_alert_dialog_button"
+        android:text="@string/xinlang_text"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        >
+    </Button>
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+           android:background="@drawable/btn_style_alert_dialog_button"
+        android:text="@string/weixin_tex"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn_style_alert_dialog_cancel_normal"
+        android:text="取消"
+        android:textColor="@color/whilt"
+        android:textSize="18sp" >
+    </Button>
+
+</LinearLayout>

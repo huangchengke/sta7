@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal" >"
+  <RelativeLayout 
+      android:id="@+id/p_rl"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      >
+    <ProgressBar
+       
+        android:id="@+id/entryProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:layout_centerHorizontal="true"
+        android:indeterminateDrawable="@drawable/progress_bar_style" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entryProgressBar"
+        android:layout_centerHorizontal="true"
+        android:text="@string/updating"
+        android:textColor="@color/red"
+        android:textSize="12sp" />
+    </RelativeLayout>
+  <TextView 
+     
+      android:layout_height="45dp"
+      android:background="@drawable/latest_select_list_pic_bk_2"
+      android:layout_centerInParent="true"
+      android:layout_alignParentBottom="true"
+      android:textColor="@color/whilt"
+      android:visibility="gone"
+      android:text="@string/no_text"
+      android:textSize="12sp"
+      android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:id="@+id/no_content"
+        />
+</RelativeLayout>
+     

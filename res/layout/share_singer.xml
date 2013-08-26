@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bk_pic"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbar"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_margin="5dp"
+            android:background="@drawable/back_bt_seletor"
+            android:gravity="center"
+            android:text="@string/back"
+            android:textColor="@color/whilt"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:text="@string/yaoqing_tex"
+            android:id="@+id/wei_xin_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_margin="5dp"
+            android:background="@drawable/toupiao_selector"
+            android:textColor="@color/whilt"
+            android:textSize="12sp" />
+    </FrameLayout>
+   <Button
+        android:id="@+id/singer_title"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/game_message"
+        android:textColor="@color/whilt"
+        android:textSize="16sp" />
+    <Button
+      android:layout_marginBottom="4dp"
+        android:id="@+id/login_mg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/game_mango" />
+
+ 
+
+    <LinearLayout
+        android:id="@+id/user"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#3bb1f5"
+        android:orientation="vertical"
+        android:padding="5dp" >
+        <TextView
+	        android:id="@+id/name"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+	        android:textSize="16sp"
+	        android:textColor="@color/whilt" />
+        <TextView
+	        android:id="@+id/count"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+	        android:textSize="16sp"
+	        android:textColor="@color/whilt" />
+        <TextView
+            android:id="@+id/description"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:scrollHorizontally="true"
+            android:gravity="left"
+            android:text="@string/S_LOGIN_DETAIL"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whilt"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/show_singer_list"
+            style="@style/list_style"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"
+            android:dividerHeight="10dp"
+            android:scrollbars="none" >
+        </ListView>
+
+        <include
+            android:id="@+id/pb"
+            layout="@layout/progress_bar" />
+    </FrameLayout>
+
+</LinearLayout>
